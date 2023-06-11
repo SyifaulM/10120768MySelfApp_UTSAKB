@@ -31,7 +31,7 @@
         app:menu="@menu/menu_main"
         app:elevation="4dp"
         app:itemIconSize="30dp"
-        app:itemIconTint="#353535"
+        app:itemIconTint="@color/white"
         app:itemTextColor="@color/white"
         app:itemRippleColor="@android:color/darker_gray"
         app:labelVisibilityMode="selected"/>

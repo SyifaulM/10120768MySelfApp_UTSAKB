@@ -43,11 +43,11 @@ class Walkthrough : AppCompatActivity() {
         for (i in 1..3){
 //            addToList("Page ${i}", "ini wt ${i}", R.drawable.undraw_female_avatar_efig)
             if (i == 1){
-                addToList("Page 1", "ini wt 1", R.drawable.undraw_female_avatar_efig)
+                addToList("Syifa's Daily Activity", "Get to know what Syifa's activity", R.drawable.undraw_suburbs_re_en49)
             } else if (i==2){
-                addToList("Page 2", "ini wt 2", R.drawable.undraw_female_avatar_efig)
+                addToList("Favorite Music", "Get Syifa's fav music lists", R.drawable.undraw_happy_music_g6wc)
             } else {
-                addToList("Page 3", "ini wt 3", R.drawable.undraw_female_avatar_efig)
+                addToList("Everithing About Syifa!", "Enjoy the little project...", R.drawable.undraw_travelers_re_y25a)
             }
         }
     }

@@ -9,23 +9,24 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
+        android:padding="5dp"
         android:background="@color/purple_100">
         <ImageView
             android:id="@+id/music_img"
-            android:layout_width="55dp"
-            android:layout_height="55dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
             android:src="@drawable/baseline_music_white_note_24" />
         <TextView
             android:id="@+id/music_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="2dp"
             android:layout_marginLeft="10dp"
             android:text="Title"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="@color/white"
             android:layout_toRightOf="@id/music_img"/>
         <TextView

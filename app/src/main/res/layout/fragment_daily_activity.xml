@@ -21,7 +21,10 @@
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Daily Activity"/>
+                android:text="Daily Activity"
+                android:textColor="@color/purple_200"
+                android:textSize="17dp"
+                android:textStyle="bold"/>
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/daily_recview"
                 android:layout_width="match_parent"
@@ -29,13 +32,17 @@
         </LinearLayout>
         <LinearLayout
             android:padding="10dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <TextView
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Friendlist"/>
+                android:text="Friendlist"
+                android:textColor="@color/purple_200"
+                android:textSize="17dp"
+                android:textStyle="bold"/>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">

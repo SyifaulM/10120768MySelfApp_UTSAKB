@@ -42,9 +42,9 @@ class GalleryFragment : Fragment() {
 
         gallery_model.addPhoto(R.drawable.f1)
         gallery_model.addPhoto(R.drawable.f2)
-        gallery_model.addPhoto(R.drawable.f3)
         gallery_model.addPhoto(R.drawable.f4)
         gallery_model.addPhoto(R.drawable.f5)
+        gallery_model.addPhoto(R.drawable.f7)
         gallery_model.addPhoto(R.drawable.f6)
 
         gallery_adapter.setData(gallery_model.getGallery())
